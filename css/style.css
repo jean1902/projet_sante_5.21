@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.bg_header{
+    height: 300px;
+    background-color: #B80000;
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url('../image/bg_corona.png');
+}
+.title_page{
+    font-size: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #404040;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 30px;
+    word-spacing: 7px;
+    padding-left: 90px;
+    padding-right: 5px;
+}
+
+.head_generale_textCenter{
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+    font-size: 17px;
+    color:#404040 ;
+    text-align: center;
+    position: relative;
+}
+.head_generale_textCenter a {
+    text-decoration: none;
+}
+.head_generale_textCenter a::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    margin-bottom: 12px;
+    background-color:#B80000;
+    display: inline-block;
+}
+.cas_generale{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E1E1E1;
+}
+.bloc_number_positives_cases{
+    padding-top: 60px;
+}
+.img_content1{
+    height: 30px;
+}
+.section_content1{
+    width: 200px;
+    margin: 0 auto;
+}
+.icon{
+    text-align: center;
+}
+.content-number_api{
+    margin-top: 50px;
+}
+.text_number{
+    background-color: #1380A1;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+.text_cas{
+    text-align: center;
+    color: #404040;
+    font-weight: bold;
+}
+.text_center_case_positive{
+    color:#404040 ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.row_search_category{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.container_image{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.table{
+    margin-top: 23px;
+}
+.title_pays{
+    margin-top:15px;
+}
+.row_info_Api div{
+
+    padding: 9px 0;
+}
+.table_info{
+    padding: 13px;
+    overflow: auto;
+ 
+}
+.text_indication{
+    padding-top: 70px;
+    font-size: 17px;
+    color:#5e5b5b ;
+    font-weight: bold;
+}
+.section2_let{
+    background-color: #efefef;
+}
+.section2{
+    margin-bottom: 40px;
+}
+.container_row1{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #efefef;
+}
+.infecteDeath{
+   width: 185px;
+   display: flex;
+   justify-content: space-between;
+}
+.api_country{
+    display: flex;
+    align-items: center;
+}
+.card_img{
+    height: 100%;
+    width: 100%;
+    filter: cover;
+}
+.infecteDeath ,.api_country{
+    color: #5e5b5b;
+    font-weight: bold;
+}
+.span1_sourceinfo{
+    color: #5e5b5b;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+.source_info{
+    text-align: center;
+}
+
+.container_btn{
+    text-align: center;
+}
