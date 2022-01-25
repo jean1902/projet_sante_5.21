@@ -101,15 +101,18 @@ body{
 .title_pays{
     margin-top:15px;
 }
-.row_info_Api div{
-
+.row_info_Api div {
     padding: 9px 0;
+    display: flex;
+    justify-content: space-between;
 }
 .table_info{
     padding: 13px;
     overflow: auto;
+    /* display: flex; */
+    flex-direction: column;
+ }
  
-}
 .text_indication{
     padding-top: 70px;
     font-size: 17px;
@@ -121,11 +124,17 @@ body{
 }
 .section2{
     margin-bottom: 40px;
+    min-height: 300px;
 }
 .container_row1{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     border-top: 1px solid #efefef;
+   
+}
+.container_row_api1{
+    overflow-y: auto;
 }
 .infecteDeath{
    width: 185px;
@@ -133,8 +142,7 @@ body{
    justify-content: space-between;
 }
 .api_country{
-    display: flex;
-    align-items: center;
+    padding-top: 9px;
 }
 .card_img{
     height: 100%;
@@ -144,6 +152,7 @@ body{
 .infecteDeath ,.api_country{
     color: #5e5b5b;
     font-weight: bold;
+    display: inline-block;
 }
 .span1_sourceinfo{
     color: #5e5b5b;
@@ -157,4 +166,70 @@ body{
 
 .container_btn{
     text-align: center;
+}
+.btn{
+    padding: 2px 20px;
+    border-radius: 7px;
+    color: white;
+}
+.btn_icon1{
+   height: 20px;
+}
+.btn1{
+    background-color:#25d366 ;
+}
+.btn2{
+    background-color:#3C5A98 ;
+}
+.btn3{
+    background-color: #47C7FA;
+}
+.btn4{
+    background-color: #615F5D;
+}
+.container_btn{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.title_button{
+    margin-bottom: 40px;
+}
+.input_form{
+    margin-top: 16px;
+    width: 350px;
+    border: 2px solid #615F5D;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 14px;
+}
+
+.p_footer{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+.section5{
+    min-height: 200px;
+    margin-bottom: 200px;
+}
+.section4{
+  margin-bottom: 60px;
+}
+.img_card_section5{
+    width: 100%;
+}
+.section5{
+    margin-bottom: 50px;
+}
+.row_b{
+    margin-bottom: 40px;
+}
+.footer_section{
+    background-color: #4C4C4C;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.p_footer{
+    color: white;
 }
