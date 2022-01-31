@@ -32,15 +32,21 @@
       <body>
        
       <div class="row-btn_navbar">
+       <div class="case1_row_btnNavbar">
         <div class="container_icon_navbar">
-         <span> TJR </span> <span class="new_navbar">News</span>
-        </div>
-       <button class="btn_menu_head">
-         <span class="text_menu">Menu </span><span><i class="fa fa-caret-down icon_btn_menu_down"></i></span>
-        <!-- <nav class=" navbar-hiden">
-        
-        </nav> -->
-       </button>
+          <span> TJR </span> <span class="new_navbar">News</span>
+         </div>
+        <button class="btn_menu_head">
+          <span class="text_menu">Menu </span><span><i class="fa fa-caret-down icon_btn_menu_down"></i></span>
+         <!-- <nav class=" navbar-hiden">
+         
+         </nav> -->
+        </button>
+       </div>
+       <div class="login_row_btn">
+         <a href="connexion.html" class="link_login_btn">connexion</a>
+         <a href="inscription.html" class="link_login_btn">inscription</a>
+       </div>
       
       </div>
      <div class="container">
@@ -63,7 +69,7 @@
         <div class="container_input_form">
          <input type="text" class="input_header" placeholder="rechercher un pays">
          <div class="container_icon_form">
-         <a href=""> <i class="fa fa-search icon_form_header" type="submit" ></i></a>
+         <a href="" class="link_icon_form" type="submit"> <i class="fa fa-search icon_form_header"  ></i></a>
          </div>
         </div>
        </form>
@@ -89,11 +95,15 @@
        </section>
       </header>
      </div>
-  
+
+        <div class="result_search_api">
+
+        </div>
+
       
 
         <h1 class="title_page">
-          Coronavirus: Suivez en direct des cas partout dans le monde
+          Coronavirus: Suivez en direct des cas partout en Afrique
         </h1>
         <div class="container">
           <div class="cas_generale">
@@ -179,7 +189,7 @@
                 </div>
               </div>
               <p class="text_indication">
-                faite defilez le tableau pour voir plus de pays
+               <i class="fa "></i> faite defilez le tableau pour voir plus de pays
               </p>
             </div>
           </section>
@@ -193,43 +203,44 @@
 
             <div class="container_btn">
               <h3 class="title_button">Partagez cette page</h3>
-              <a href="" class="btn btn1">
-                <img
-                  src="image/whatsapp_myali.png"
-                  class="btn_icon btn1_icon"
-                  alt="logo_whattsapp"
-                />
-                <span> whattsapp</span>
-              </a >
-              <a href="" class="btn btn2">
-                <img
-                  src="image/facebook_fcyqx.png"
-                  class="btn_icon btn1_icon"
-                  alt="logo_facebook"
-                />
-                <span>Facebook</span>
-              </a >
-              <a href="" class="btn btn3">
-                <img
-                  src="image/twitter_ead93.png"
-                  class="btn_icon btn1_icon"
-                  alt="logo_twiter"
-                />
-                <span>Twiter</span>
-              </a >
-              <a href="" class="btn btn4">
-                <img
-                  src="image/whatsapp_myali.png"
-                  class="btn_icon btn1_icon"
-                  alt="logo_email"
-                />
-                <span>Email</span>
-              </a >
+              <div class="container_list_social">
+                <a href="" class="btn_social btn1">
+                  <img
+                    src="image/whatsapp_myali.png"
+                    class="btn_icon btn1_icon"
+                    alt="logo_whattsapp"
+                  />
+                  <span> whattsapp</span>
+                </a >
+                <a href="" class="btn_social btn2">
+                  <img
+                    src="image/facebook_fcyqx.png"
+                    class="btn_icon btn1_icon"
+                    alt="logo_facebook"
+                  />
+                  <span>Facebook</span>
+                </a >
+                <a href="" class="btn_social btn3">
+                  <img
+                    src="image/twitter_ead93.png"
+                    class="btn_icon btn1_icon"
+                    alt="logo_twiter"
+                  />
+                  <span>Twiter</span>
+                </a >
+                <a href="" class="btn_social btn4">
+                  <img
+                    src="image/whatsapp_myali.png"
+                    class="btn_icon btn1_icon"
+                    alt="logo_email"
+                  />
+                  <span>Email</span>
+                </a >
+              </div>
             </div>
           </section3>
-
-          <p class="result_search_api" id="result_page_search"></p>
-
+         
+          
           <s ection5 class="section5">
             <div class="row  row_b">
               <div class="card_section5 col-md-4">
@@ -259,6 +270,7 @@
         </footer>
       </body>
     </html>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
     <script  src =" https://code.jquery.com/jquery-3.6.0.js"> </script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="script.js"></script>
