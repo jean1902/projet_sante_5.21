@@ -16,16 +16,16 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="css/loggin_style.css" />
-    <title>page de connexion</title>
+    <title> connexion</title>
   </head>
   <body>
     <div class="body_loggin">
       <div class="header_login">
         <div class="login_container">
-          <a href="" class="link_header_login link_header_login1">
+          <a href="connexion.html" class="link_header_login link_header_login1">
             Se connecter</a
           >
-          <a href="" class="link_header_login link_header_login2"
+          <a href="inscription.html" class="link_header_login link_header_login2"
             >Creer un compte</a
           >
         </div>
@@ -45,8 +45,9 @@
           <div class="card_login col-md-6">
             <form class="form_loggin">
               <div class="row_form_loggin">
-                <input type="text" class="input_loggin" />
-                <input type="text" class="input_loggin" />
+                <input type="text" class="input_loggin input_login_grey_color" id="user_name" placeholder="Username" value="Tiero jean" />
+                <input type="password" class="input_loggin  input_login_grey_color" id="user_pass" placeholder="Password" value="jeanrodolphe" />
+                <input type="submit" class="input_loggin input_login_green_color_connexion"  value="connexion" />
               </div>
               <div class="row_form_loggin">
                 <div class="forget_password_loggin_row">
@@ -56,7 +57,7 @@
                     rester connecter
                   </a>
                  </div>
-                 <a href="" class="link_forget_password">Mot de pass oublie</a>
+                 <a href="" class="link_forget_password">Mot de pass oublie?</a>
                 </div>
                 <div class="row_horizontale_bar">
                   <hr class="bar_loggin" />
@@ -80,6 +81,6 @@
         </div>
       </div>
     </div>
-    <script src="script_connexion.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
