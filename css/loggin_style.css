@@ -83,6 +83,15 @@ body{
   
     outline: none;
 }
+.text_form_login{
+    color:red;
+    margin-top: -13px;
+    text-transform: capitalize;
+    font-weight: 400;
+    display: none;
+    font-size: 16px;
+    text-align: center;
+}
 .input_login_grey_color{
     background-color: rgb(235, 232, 232);
   

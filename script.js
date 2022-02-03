@@ -144,28 +144,4 @@ let prev= document.querySelector('.slick-prev').innerHTML =` <img src="image/lef
 
 let next= document.querySelector('.slick-next').innerHTML=` <img src="image/left-arrow_right.png" alt="right_arrows" class="btn-size" >`
 
-let bouton = document.querySelector('.form_loggin');
-let name_sto;
-let name_sto1;
-let data ={
-    name :name_user.value,
-   user_pass :user_pass.value,
-    // name_user : name_user.value,
-    // password :password.value,
-    // mail :mail.value 
-}
-
-// bouton.addEventListener("submit",()=>{
-
-//     localStorage.setItem("name",name.value);
-
-// })
-
-
-bouton.addEventListener('submit',()=>{
-   name_sto= localStorage.setItem("name",name_sto.value);
-  console.log(name_sto)
-  name_sto1 =localStorage.setItem("user_pass",name_sto1.value);
-  console.log(name_sto1)
-  //  localStorage.setItem("data",JSON.stringify(data))  
-})
+// local storage
